@@ -1,0 +1,182 @@
+body {
+    font-family: Roboto;
+    list-style: none;
+}
+
+ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: Roboto;
+}
+
+li {
+    float: left;
+}
+
+.spotify {
+    position: relative;
+    left: 20px;
+    padding-right: 50px;
+    padding-left: 200px;
+    color: #00CC00;
+    font-size: 30px;
+    text-decoration: none;
+    width: 150px;
+
+}
+
+.premium,
+.discover,
+.help,
+.download {
+    display: block;
+    position: relative;
+    padding-left: 8px;
+    color: grey;
+    text-decoration: none;
+    left: 780px;
+    top: 15px;
+}
+
+.premium:hover,
+.discover:hover,
+.help:hover,
+.download:hover {
+    color: red;
+}
+
+#header {
+    position: relative;
+    bottom: 45px;
+}
+.nav{
+    position: relative;
+}
+
+#content {
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 55px;
+}
+
+figure img {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 90px;
+    overflow: hidden;
+    object-fit: cover;
+    left: 20px;
+}
+
+.icon {
+    position: relative;
+    left: 145px;
+    top: 50px;
+}
+
+h3 {
+    margin: auto;
+    font-family: Roboto;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    text-decoration: 2px underline #00AA00;
+    font-size: 30px;
+    right: 10px;
+    padding-bottom: 100px;
+}
+
+.text,
+.title,
+.title_2 {
+    position: relative;
+    left: 100px;
+    float: left;
+    padding-left: 8px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    font-size: 85px;
+    font-style: bold;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    right: 90px;
+    top: 170px;
+    font-size: 30px;
+
+}
+
+.title_2 {
+    color: white;
+    position: absolute;
+    right: 90px;
+    top: 200px;
+    font-size: 30px;
+}
+
+.speaker,
+.wave-sound,
+.devices {
+    position: relative;
+    top: 50px;
+    padding-left: 350px;
+    right: 500px;
+}
+
+.speaker {
+    position: relative;
+    right: 150px;
+}
+
+.wave-sound {
+    position: relative;
+    right: 40px;
+}
+
+.devices {
+    position: relative;
+    left: 130px;
+}
+
+.songs,
+.hd-music,
+.stream {
+    color: #00AA00;
+    float: left;
+    font-weight: bold;
+    padding-left: 300px;
+    right: 400px;
+    bottom: 200px;
+}
+
+.songs {
+    position: relative;
+    right: 125px;
+    bottom: 80px;
+}
+
+.hd-music {
+    position: relative;
+    right: 20px;
+    bottom: 80px;
+}
+
+.stream {
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+}
